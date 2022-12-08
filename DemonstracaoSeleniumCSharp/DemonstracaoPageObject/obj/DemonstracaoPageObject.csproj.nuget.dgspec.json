@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\lna007\\Documents\\Visual Studio 2019\\Projects\\CursoAutomacaoSelenium\\DemonstracaoPageObject\\DemonstracaoPageObject.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\lna007\\Documents\\Visual Studio 2019\\Projects\\CursoAutomacaoSelenium\\DemonstracaoPageObject\\DemonstracaoPageObject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lna007\\Documents\\Visual Studio 2019\\Projects\\CursoAutomacaoSelenium\\DemonstracaoPageObject\\DemonstracaoPageObject.csproj",
+        "projectName": "DemonstracaoPageObject",
+        "projectPath": "C:\\Users\\lna007\\Documents\\Visual Studio 2019\\Projects\\CursoAutomacaoSelenium\\DemonstracaoPageObject\\DemonstracaoPageObject.csproj",
+        "packagesPath": "C:\\Users\\lna007\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lna007\\Documents\\Visual Studio 2019\\Projects\\CursoAutomacaoSelenium\\DemonstracaoPageObject\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lna007\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net45"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://tfs.prudentialdobrasil.com.br/tfs/WebSystem/_packaging/POB.Quality.NuGet/nuget/v3/index.json": {},
+          "https://tfs.prudentialdobrasil.com.br/tfs/WebSystem/_packaging/POB.Quality.NuGet/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net45": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net45": {
+          "dependencies": {
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

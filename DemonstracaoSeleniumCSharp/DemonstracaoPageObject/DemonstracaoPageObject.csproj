@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <RestoreAdditionalProjectSources>
+      https://api.nuget.org/v3/index.json;
+      https://tfs.prudentialdobrasil.com.br/tfs/WebSystem/_packaging/POB.Quality.NuGet/nuget/v3/index.json
+    </RestoreAdditionalProjectSources>
+    <TargetFramework>net45</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Selenium.Support" Version="4.6.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="4.6.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="C:\Users\lna007\.nuget\packages\selenium.webdriver\4.6.0\build\..\manager\linux\selenium-manager" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="C:\Users\lna007\.nuget\packages\selenium.webdriver\4.6.0\build\..\manager\macos\selenium-manager" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="C:\Users\lna007\.nuget\packages\selenium.webdriver\4.6.0\build\..\manager\windows\selenium-manager.exe" />
+  </ItemGroup>
+</Project>
