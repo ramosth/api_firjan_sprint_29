@@ -1,0 +1,14 @@
+C:\Users\lna007\Documents\Visual Studio 2019\Projects\CursoAutomacaoSelenium\DemonstracaoPageObject\bin\Debug\selenium-manager\linux\selenium-manager
+C:\Users\lna007\Documents\Visual Studio 2019\Projects\CursoAutomacaoSelenium\DemonstracaoPageObject\bin\Debug\selenium-manager\macos\selenium-manager
+C:\Users\lna007\Documents\Visual Studio 2019\Projects\CursoAutomacaoSelenium\DemonstracaoPageObject\bin\Debug\selenium-manager\windows\selenium-manager.exe
+C:\Users\lna007\Documents\Visual Studio 2019\Projects\CursoAutomacaoSelenium\DemonstracaoPageObject\bin\Debug\DemonstracaoPageObject.dll
+C:\Users\lna007\Documents\Visual Studio 2019\Projects\CursoAutomacaoSelenium\DemonstracaoPageObject\bin\Debug\DemonstracaoPageObject.pdb
+C:\Users\lna007\Documents\Visual Studio 2019\Projects\CursoAutomacaoSelenium\DemonstracaoPageObject\bin\Debug\WebDriver.Support.dll
+C:\Users\lna007\Documents\Visual Studio 2019\Projects\CursoAutomacaoSelenium\DemonstracaoPageObject\bin\Debug\WebDriver.dll
+C:\Users\lna007\Documents\Visual Studio 2019\Projects\CursoAutomacaoSelenium\DemonstracaoPageObject\obj\Debug\DemonstracaoPageObject.csprojAssemblyReference.cache
+C:\Users\lna007\Documents\Visual Studio 2019\Projects\CursoAutomacaoSelenium\DemonstracaoPageObject\obj\Debug\DemonstracaoPageObject.AssemblyInfoInputs.cache
+C:\Users\lna007\Documents\Visual Studio 2019\Projects\CursoAutomacaoSelenium\DemonstracaoPageObject\obj\Debug\DemonstracaoPageObject.AssemblyInfo.cs
+C:\Users\lna007\Documents\Visual Studio 2019\Projects\CursoAutomacaoSelenium\DemonstracaoPageObject\obj\Debug\DemonstracaoPageObject.csproj.CoreCompileInputs.cache
+C:\Users\lna007\Documents\Visual Studio 2019\Projects\CursoAutomacaoSelenium\DemonstracaoPageObject\obj\Debug\DemonstracaoPageObject.csproj.CopyComplete
+C:\Users\lna007\Documents\Visual Studio 2019\Projects\CursoAutomacaoSelenium\DemonstracaoPageObject\obj\Debug\DemonstracaoPageObject.dll
+C:\Users\lna007\Documents\Visual Studio 2019\Projects\CursoAutomacaoSelenium\DemonstracaoPageObject\obj\Debug\DemonstracaoPageObject.pdb

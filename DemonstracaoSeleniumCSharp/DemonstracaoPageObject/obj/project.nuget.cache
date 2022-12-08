@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "qTVGCFiJzKrNfDae7DK5w5VbFauPuQyE8kurvMIqRXIJ5fgrt0zxhqHVQla4MkLN+pSSIywk55jaWM7T5fHcGg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lna007\\Documents\\Visual Studio 2019\\Projects\\CursoAutomacaoSelenium\\DemonstracaoPageObject\\DemonstracaoPageObject.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lna007\\.nuget\\packages\\selenium.support\\4.6.0\\selenium.support.4.6.0.nupkg.sha512",
+    "C:\\Users\\lna007\\.nuget\\packages\\selenium.webdriver\\4.6.0\\selenium.webdriver.4.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}

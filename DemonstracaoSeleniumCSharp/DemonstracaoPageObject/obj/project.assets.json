@@ -1,0 +1,137 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.5": {
+      "Selenium.Support/4.6.0": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "4.6.0"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing"
+        ],
+        "compile": {
+          "lib/net45/WebDriver.Support.dll": {}
+        },
+        "runtime": {
+          "lib/net45/WebDriver.Support.dll": {}
+        }
+      },
+      "Selenium.WebDriver/4.6.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Drawing"
+        ],
+        "compile": {
+          "lib/net45/WebDriver.dll": {}
+        },
+        "runtime": {
+          "lib/net45/WebDriver.dll": {}
+        },
+        "build": {
+          "build/Selenium.WebDriver.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Selenium.Support/4.6.0": {
+      "sha512": "sbZDn0v4fNwhB0vyhWZD+P9Tr3MlPOT5gA+SJTcqDxe0ieS1SOhF0koV2zmh1qwNq8dgR+6YxHhmhh3EntEZ+w==",
+      "type": "package",
+      "path": "selenium.support/4.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/icon.png",
+        "lib/net45/WebDriver.Support.dll",
+        "lib/net46/WebDriver.Support.dll",
+        "lib/net47/WebDriver.Support.dll",
+        "lib/net48/WebDriver.Support.dll",
+        "lib/net5.0/WebDriver.Support.dll",
+        "lib/netstandard2.0/WebDriver.Support.dll",
+        "lib/netstandard2.1/WebDriver.Support.dll",
+        "selenium.support.4.6.0.nupkg.sha512",
+        "selenium.support.nuspec"
+      ]
+    },
+    "Selenium.WebDriver/4.6.0": {
+      "sha512": "wdkzNyVYvdI0YOeScP42ubshPOjY7dj8aXHyetlhVTqKo5gAbYnOJU//W5q0hVSVw4hsisNvgR/UQqPvgM8rew==",
+      "type": "package",
+      "path": "selenium.webdriver/4.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Selenium.WebDriver.targets",
+        "images/icon.png",
+        "lib/net45/WebDriver.dll",
+        "lib/net46/WebDriver.dll",
+        "lib/net47/WebDriver.dll",
+        "lib/net48/WebDriver.dll",
+        "lib/net5.0/WebDriver.dll",
+        "lib/netstandard2.0/WebDriver.dll",
+        "lib/netstandard2.1/WebDriver.dll",
+        "manager/linux/selenium-manager",
+        "manager/macos/selenium-manager",
+        "manager/windows/selenium-manager.exe",
+        "selenium.webdriver.4.6.0.nupkg.sha512",
+        "selenium.webdriver.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.5": [
+      "Selenium.Support >= 4.6.0",
+      "Selenium.WebDriver >= 4.6.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\lna007\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\lna007\\Documents\\Visual Studio 2019\\Projects\\CursoAutomacaoSelenium\\DemonstracaoPageObject\\DemonstracaoPageObject.csproj",
+      "projectName": "DemonstracaoPageObject",
+      "projectPath": "C:\\Users\\lna007\\Documents\\Visual Studio 2019\\Projects\\CursoAutomacaoSelenium\\DemonstracaoPageObject\\DemonstracaoPageObject.csproj",
+      "packagesPath": "C:\\Users\\lna007\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lna007\\Documents\\Visual Studio 2019\\Projects\\CursoAutomacaoSelenium\\DemonstracaoPageObject\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\lna007\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net45"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {},
+        "https://tfs.prudentialdobrasil.com.br/tfs/WebSystem/_packaging/POB.Quality.NuGet/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "net45": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net45": {
+        "dependencies": {
+          "Selenium.Support": {
+            "target": "Package",
+            "version": "[4.6.0, )"
+          },
+          "Selenium.WebDriver": {
+            "target": "Package",
+            "version": "[4.6.0, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
